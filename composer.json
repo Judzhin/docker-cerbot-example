@@ -1,0 +1,34 @@
+{
+    "name": "judzhin/docker-cerbot-example",
+    "description": "CerBot Example",
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src"
+        },
+        "classmap": [
+        ]
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+    },
+    "scripts": {
+        "use-scripts": [
+        ],
+        "post-install-cmd": [
+            "@use-scripts"
+        ],
+        "post-update-cmd": [
+            "@use-scripts"
+        ]
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": null
+    },
+    "config": {
+        "sort-packages": true,
+        "bin-dir": "bin/"
+    }
+}
