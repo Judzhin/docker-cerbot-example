@@ -17,7 +17,7 @@ services:
   certbot:
     # restart: unless-stopped #+++
     image: certbot/certbot
-    container_name: certbot
+    container_name: docker-cerbot-example-${APP_ENV}
     volumes:
       #cerbot
       - ./data/certbot/conf:/etc/letsencrypt:rw
