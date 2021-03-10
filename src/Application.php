@@ -13,6 +13,6 @@ class Application
      */
     public static function run(): string
     {
-        return "Hello World";
+        return "CertBot Example";
     }
 }
