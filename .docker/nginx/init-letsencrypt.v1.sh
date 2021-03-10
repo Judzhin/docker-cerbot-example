@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains="erc-distribution.ge" "www.erc-distribution.ge"
+domains=(erc-distribution.ge www.erc-distribution.ge)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="msbios@gmail.com" # Adding a valid address is strongly recommended
